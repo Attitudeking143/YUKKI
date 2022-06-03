@@ -203,7 +203,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{total_time} ♪❥❥ــ٨ــــــــــــــــــــــــ {current_time}",
+                text=f"{total_time} 0:00 ●━━━━━━─────── 4:00 ‌ ‌ ⇆        ㅤ       ㅤ  ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ ㅤ↻ {current_time}",
                 callback_data=f"timer_checkup_markup {videoid}|{user_id}",
             )
         ],
